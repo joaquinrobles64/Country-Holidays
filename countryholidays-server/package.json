@@ -1,0 +1,20 @@
+{
+  "name": "countryholidays-server",
+  "version": "1.0.0",
+  "description": "server application for interacting with Nager Date API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon server.js"
+  },
+  "author": "Joaquin Robles",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "countryholidays": "file:../countryholidays",
+    "express": "^4.17.1"
+  }
+}

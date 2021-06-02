@@ -1,0 +1,17 @@
+{
+  "name": "countryholidays",
+  "version": "1.0.0",
+  "description": "module to interact with Nager Date API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "holiday"
+  ],
+  "author": "Joaquin Robles",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^6.1.0"
+  }
+}
